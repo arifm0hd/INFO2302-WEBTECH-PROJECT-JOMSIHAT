@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.covid {
+    border: 1px solid transparent;
+    background-color: mediumturquoise;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+/*--------------NAVIGATION BAR--------------------*/
+
+nav{
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 200px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #32620e;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+/*-----------------CONTACT FORM-------------------------*/
+  .contact-banner {
+    background-image: linear-gradient(
+      to right,
+      #244b06 0%,
+      #32620e 100%
+    );
+    color: white;
+    padding: 40px;
+  }
+
+  .form-container {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: rgb(236, 236, 236);
+    box-sizing: border-box;
+  }
+
+  .maps{
+    float: right;
+    margin-top: 40px;
+    margin-right: 5.5%;
+    
+  }
+  
+  .invalid {
+    border: 1px solid red;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  .contact-description {
+    margin-bottom: 40px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 380px;
+    border: 1px solid rgb(0, 114, 66);
+    font-size: 18px;
+    outline: none;
+    color: #333;
+  }
+  
+  .form-control {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .hide {
+    opacity: 0;
+  }
+  
+  textarea {
+    width: 560px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    height: 200px;
+    font-size: 18px;
+  }
+  
+  button {
+    color: black;
+    padding: 15px;
+    border: 1px solid rgb(0, 114, 66);
+    border-radius: 10px;
+    background-color: rgb(0, 114, 66);
+    cursor: pointer;
+    transition: all 0.5s;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: rgb(0, 151, 88);
+    color: white;
+  }
+  
+  form {
+    padding: 30px;
+  }
+  
+  hr {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 1px;
+    border: none;
+    background-color: rgb(0, 114, 66);
+  }
+
+  .thanks{
+    padding: 40px;
+    font-size: 32px;
+    text-align: center;
+  }
+
+/*---------------------------FOOTER----------------------------------*/
+.footer-distributed {
+    background-color: #244b06;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 25px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-right {
+    float:right;
+    max-width: 180px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #32620e;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
