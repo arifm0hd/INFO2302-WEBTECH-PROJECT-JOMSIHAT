@@ -54,6 +54,10 @@ We wanted people to be able to balance these aspects in order to achieve a healt
 
 <li>Poppins. Google Fonts. Retrieved 11 December 2021 from 
   <br>https://fonts.google.com/specimen/Poppins</li>
+<li>Font Awesome. Bootstrap CDN. Retrieved from
+  <br>https://www.bootstrapcdn.com/fontawesome/</li>
+<li>Multiple icons. Ionicons. Retrieved from
+  <br>https://ionic.io/ionicons</li>
 <li>Multiple guides. W3Schools. Retrieved from 
   <br>https://www.w3schools.com/</li>
 <li>Healthy Lifestyle. Every Mind Matters. Retrieved from 
