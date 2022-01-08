@@ -58,12 +58,15 @@ We wanted people to be able to balance these aspects in order to achieve a healt
   <br>https://www.w3schools.com/</li>
 <li>Healthy Lifestyle. Every Mind Matters. Retrieved from 
   <br> https://www.youtube.com/watch?v=Cg_GW7yhq20</li>
+<li>Covid-19 Malaysia. Ministry of Health. Retrieved from
+  <br>https://covid-19.moh.gov.my/</li>
 <li>Physical Activity. Centers for Disease Control and Prevention. Retrieved 22 December 2021 from
   <br>https://www.cdc.gov/physicalactivity/basics/age-chart.html</li>
 <li>Rachael Link. Healthline. 8 Benefits of Fasting. Retrieved 30 July 2018 from 
   <br>https://www.healthline.com/nutrition/fasting-benefits</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Mental Health Foundation. What is Good Mental Health?. Retrieved  January 1, 2022, from
+  <br>https://www.mentalhealth.org.uk/your-mental-health/about-mental-health/what-good-mental-health</li>
+<li>Immediate Media Company. BBC good food. Retrieved 25 december 2021 from
+  <br>https://www.bbcgoodfood.com/</li>
+<li>MedlinePlus. Mental Disorders. Retrieved December 31, 2021, from
+  <br>https://medlineplus.gov/mentaldisorders.html</li>
