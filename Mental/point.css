@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.covid {
+  border: 1px solid transparent;
+  background-color: mediumturquoise;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/*--------------NAVIGATION BAR--------------------*/
+
+nav{
+  display: flex;
+  padding: 1% 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img{
+  width: 200px;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #32620e;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+
+
+/*------------------------PARTS--------------------*/
+.main {
+  background-color: #333;
+  padding: 20px;
+
+}
+
+.right {
+  background-color: #ADD8E6;
+  padding: 20px;
+  float: right;
+  width: 25%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+h2, h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ADD8E6;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+}
+
+.right p{
+  color: black;
+}
+
+/*---------------------------FOOTER----------------------------------*/
+.footer-distributed {
+  font-family: 'Poppins', sans-serif;
+  background-color: #244b06;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 25px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-distributed .footer-right {
+  float:right;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #32620e;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+
+
